@@ -13,6 +13,7 @@ if [ "${ONLINE:-true}" == "true" ]; then
     --data output_format=text \
     --data output_info=compiled_code \
     --data use_closure_library=true \
+    --data charset=US-ASCII \
     --data compilation_level=SIMPLE_OPTIMIZATIONS \
     --data formatting=PRETTY_PRINT \
     --data-urlencode js_code@src/asyoutypeformatter.js \

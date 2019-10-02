@@ -12,6 +12,7 @@
     <attribute name="inputfile" />
     <attribute name="outputfile" />
     <attribute name="compilationlevel" default="SIMPLE_OPTIMIZATIONS" />
+    <attribute name="charset" default="US-ASCII" />
     <attribute name="formatting" default="PRETTY_PRINT" />
     <attribute name="outputmode" default="compiled" />
     <attribute name="outputwrapper" default="%output" />
